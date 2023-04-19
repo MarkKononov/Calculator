@@ -1,0 +1,95 @@
+html {
+    font-size: 16px;
+  }
+  
+  body {
+    background-color: #330066;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .calculator {
+    width: 35rem;
+    height: 55rem;
+    background-color: #47476b;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 5px solid #1f1f2e;
+    border-radius: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .display-bar {
+    width: 35rem;
+    height: 8rem;
+    border: 2px solid #9A8FB5;
+    border-radius: 1rem;
+    background-color: #1f1f2e;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  .button-row {
+    display: flex;
+    gap: 3.5rem;
+  }
+  
+  .button {
+    width: 6rem;
+    height: 6rem;
+    background-color: #1f1f2e;
+    border: 2px solid #9A8FB5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .number, .operation, .operation-style {
+    font-size: 3rem;
+  }
+  
+  .operation {
+    font-weight: 700;
+    background-color: #5D1DA1;
+  }
+  
+  .operation-style {
+    font-weight: 700;
+    background-color: #5D1DA1;
+  }
+  
+  .top-row {
+    font-size: 2rem;
+  }
+  
+  .button:hover {
+    background-color: #837B96;
+  }
+  
+  .mini-text {
+    color: #A278B3;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+  }
+  
+  .display-text {
+    color: white;
+    padding-right: 1rem;
+    font-size: 4rem;
+  }
+  
+  .del-button, .clr-button {
+    background-color: #564766;
+  }
